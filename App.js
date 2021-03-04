@@ -1,4 +1,4 @@
-var {getEvents,getWeekend } = require('./funcs'),
+var { getEvents,getWeekend } = require('./funcs'),
 { Client} = require('discord.js'),
 client = new Client();
 module.exports = (token) => {

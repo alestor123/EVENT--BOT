@@ -17,3 +17,4 @@ function getWeekend() {
     
     return [new Date(date.setDate(lastday)).toISOString().split('T')[0],new Date(date.setDate(snd)).toISOString().split('T')[0],new Date(date.setDate(tt)).toISOString().split('T')[0]]
 }
+module.exports = {getEvents , getWeekend}
