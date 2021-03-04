@@ -4,7 +4,8 @@
   "description": "This is a simple code for getting this weeks dev events from mlh",
   "main": "App.js",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "x-ray": "^2.3.4"
   },
   "devDependencies": {},
   "scripts": {
